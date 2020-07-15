@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../src/fancybot"
+	"github.com/meganlee18/fancybot/src/fancybot"
 )
 
 func main() {
