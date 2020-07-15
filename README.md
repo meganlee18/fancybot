@@ -1,5 +1,7 @@
 # FancyBot
 
+![What fancy Bot looks like](./fancyBot.png)
+
 ## About this project
 This project creates a bot for Slack using Slack and Real Time Messaging (RTM) API. FancyBot is the name of the bot because it likes to be fancy. 
 
