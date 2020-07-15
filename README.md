@@ -7,7 +7,7 @@ This project creates a bot for Slack using Slack and Real Time Messaging (RTM) A
 
 FancyBot responds in real time to users when they ask various things. Responses depend on what was asked. Try being awful and it will not like you!
 
-The project is written in Go.
+The project is written in Go. Original project idea from [Slack-Bot](https://rsmitty.github.io/Slack-Bot/)
 
 ## What you will need
 You'll need a Slack workspace to play around with. You'll also need to create a Slack Bot in your [workspace](https://slack.com/intl/en-au/help/articles/115005265703-Create-a-bot-for-your-workspace#add-a-bot-user). Remember the token created for your Slack Bot. Keep it somewhere safe! You'll need to use it later.
