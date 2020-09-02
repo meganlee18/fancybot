@@ -30,4 +30,4 @@ If you would like to speak to FancyBot, you'll need access to my [Slack workspac
 
 ## To Do
 - This project needs tests to test out further functionality
-- Dockerize this project using Docker! 
+- Dockerize this project in progress
