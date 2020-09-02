@@ -1,6 +1,6 @@
 # FancyBot
 
-![What fancy Bot looks like](./fancybot.png)
+![What fancy Bot looks like](./bot.png)
 
 ## About this project
 This project creates a bot for Slack using Slacker API. FancyBot is the name of the bot because it likes to be fancy. 
