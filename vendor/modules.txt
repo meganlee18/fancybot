@@ -1,17 +1,17 @@
-# github.com/davecgh/go-spew v1.1.1
-github.com/davecgh/go-spew/spew
 # github.com/gorilla/websocket v1.4.2
 github.com/gorilla/websocket
-# github.com/pkg/errors v0.8.0
+# github.com/pkg/errors v0.8.1
 github.com/pkg/errors
-# github.com/pmezard/go-difflib v1.0.0
-github.com/pmezard/go-difflib/difflib
+# github.com/shomali11/commander v0.0.0-20191122162317-51bc574c29ba
+github.com/shomali11/commander
+# github.com/shomali11/proper v0.0.0-20180607004733-233a9a872c30
+github.com/shomali11/proper
+# github.com/shomali11/slacker v0.0.0-20200610181250-3156f073f291
+## explicit
+github.com/shomali11/slacker
 # github.com/slack-go/slack v0.6.5
 ## explicit
 github.com/slack-go/slack
 github.com/slack-go/slack/internal/errorsx
 github.com/slack-go/slack/internal/timex
 github.com/slack-go/slack/slackutilsx
-# github.com/stretchr/testify v1.2.2
-## explicit
-github.com/stretchr/testify/assert
