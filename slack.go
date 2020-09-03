@@ -1,11 +1,12 @@
 package slack
 
 import (
-	"github.com/shomali11/slacker"
 	"os"
+
+	"github.com/shomali11/slacker"
 )
 
-func AuthenticateToSlack() *slacker.Slacker{
+func AuthenticateToSlack() *slacker.Slacker {
 	token := os.Getenv("SLACK_TOKEN")
 	return slacker.NewClient(token)
 }

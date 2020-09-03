@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/meganlee18/fancybot/internal/slack"
 	"log"
+
+	"github.com/meganlee18/fancybot"
 )
 
 func main() {
