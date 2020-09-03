@@ -1,13 +1,13 @@
-#Docker this project!
+# Docker this project!
 
 Now that we have a Go project with basic functionality, let's migrate this to a Docker container.
 
-##Why Docker?
+## Why Docker?
 Docker packages the project and its contents in a virtual container to make it easier to create, deploy and run applications. Docker allows the application to be isolated from its environment, making it handy to work elsewhere other than the local machine. It simplifies the development workflow. For more information, see [Docker](https://www.docker.com/why-docker).
 
-##Steps to migrating the project to Docker
+## Steps to migrating the project to Docker
 
-1. Create a [Dockerfile](Dockerfile)  
+1. Create a [Dockerfile](Dockerfile)
 
 2. Run the build `docker build -t fancybot .`
 
