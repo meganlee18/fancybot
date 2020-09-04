@@ -2,7 +2,7 @@ package slack
 
 import "github.com/shomali11/slacker"
 
-func hellodefinition() *slacker.CommandDefinition {
+func helloDefinition() *slacker.CommandDefinition {
 	return &slacker.CommandDefinition{
 		Description: "Echo hello with name",
 		Example: "Hello, or Hello Ben",
