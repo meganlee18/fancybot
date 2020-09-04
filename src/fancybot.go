@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 
 	"github.com/meganlee18/fancybot"
@@ -15,9 +14,12 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	fmt.Println("Listening...")
+	log.Println("Listening...")
+
 	err := bot.Listen(ctx)
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	log.Println("Ready! Say something to FancyBot on Slack!")
 }
