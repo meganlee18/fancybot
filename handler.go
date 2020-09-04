@@ -22,11 +22,11 @@ func pingHandle(botCtx slacker.BotContext, request slacker.Request, response sla
 }
 
 func threadReplyHandle(botCtx slacker.BotContext, request slacker.Request, response slacker.ResponseWriter) {
-	response.ReportError(errors.New("oops"), slacker.WithThreadError(true))
+	response.ReportError(errors.New("oops, something went wrong with the thread"), slacker.WithThreadError(true))
 }
 
 func messageReplyHandle(botCtx slacker.BotContext, request slacker.Request, response slacker.ResponseWriter) {
-	response.ReportError(errors.New("oops"))
+	response.ReportError(errors.New("oops, something went wrong with the message"))
 }
 
 func repeatWordHandle(botCtx slacker.BotContext, request slacker.Request, response slacker.ResponseWriter) {

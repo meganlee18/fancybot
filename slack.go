@@ -12,7 +12,7 @@ func AuthenticateToSlack() *slacker.Slacker {
 }
 
 func Respond(bot *slacker.Slacker) {
-	bot.Command("Hello <name>", hellodefinition())
+	bot.Command("Hello <name>", helloDefinition())
 	bot.Command("ping", pingDefinition())
 	bot.Command("repeat <word> <number>", repeatWordDefinition())
 	bot.Command("thread", threadReplyDefinition())
